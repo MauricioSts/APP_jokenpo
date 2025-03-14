@@ -1,16 +1,18 @@
-# jokenpo
+# O que eu aprendi criando o meu 2° aplicativo ? 
 
-A new Flutter project.
+Utilizei todos os conhecimentos de quando eu criei o meu primeiro app, porém um fato crucial para o 2° app funcionar foi o ` GestureDetector`
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## GestureDetector
 
-A few resources to get you started if this is your first Flutter project:
+Basicamente um detector de toques na tela, utilizando o `child` eu posso setar onde eu quero capturar o toque do usuario e utilizando o `onTap` posso setar uma função especifica.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ `onTap: () {
+                    _opcaoSelecionada("papel");
+                  },
+                  child: Image.asset("images/papel.png", width: 100),
+                ),`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
